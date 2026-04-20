@@ -95,13 +95,6 @@ cd landing-pages-saas
 Atau akses live demo via **GitHub Pages**:
 🔗 `https://Alfin123-stack.github.io/landing-pages-saas`
 
----
-
-## 📝 Catatan Pengembangan
-
-**Kenapa `tailwind.config` tidak dipisah ke `main.js`?**
-
-Konfigurasi Tailwind (warna & font custom) **harus dijalankan sebelum** Tailwind CDN memproses halaman. Jika dipindah ke file JS eksternal, class seperti `bg-primary` dan `font-display` tidak akan dikenali. Ini adalah batasan teknis Tailwind via CDN, bukan kesalahan struktur.
 
 ---
 
